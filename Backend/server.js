@@ -17,7 +17,7 @@ const app = express();
 
 // CORS setup
 app.use(cors({
-  origin: "https://verifyme-pbc0.onrender.com/", // frontend
+  origin: "https://verifyme-pbc0.onrender.com/api", // frontend
   credentials: true
 }));
 
