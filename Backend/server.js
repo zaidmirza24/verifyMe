@@ -17,7 +17,7 @@ const app = express();
 
 // CORS setup
 app.use(cors({
-  origin: "http://localhost:5173", // frontend
+  origin: "https://verifyme-pbc0.onrender.com/", // frontend
   credentials: true
 }));
 
@@ -32,7 +32,7 @@ app.use(express.json());
 app.use(
   "/uploads",
   (req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "http://localhost:5173");
+    res.header("Access-Control-Allow-Origin", "https://verifyme-pbc0.onrender.com");
     res.header("Access-Control-Allow-Credentials", "true");
     res.header("Cross-Origin-Resource-Policy", "cross-origin");
     next();
