@@ -47,8 +47,8 @@ npm start
 ```
 
 The app will run at:  
-- Frontend → `http://localhost:5173`  
-- Backend → `http://localhost:4000`  
+- Frontend → `https://verifyme-pbc0.onrender.com`  
+- Backend → `https://verifyme-uw2l.onrender.com`  
 
 ---
 

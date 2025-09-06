@@ -65,7 +65,7 @@ export default function Dashboard() {
             {data.map((reqItem, index) => {
 
               const imageUrl = reqItem.documentPath
-                ? `http://localhost:4000/uploads/${reqItem.documentPath.replace(
+                ? `https://verifyme-uw2l.onrender.com/uploads/${reqItem.documentPath.replace(
                     /^uploads[\\/]/,
                     ""
                   )}`

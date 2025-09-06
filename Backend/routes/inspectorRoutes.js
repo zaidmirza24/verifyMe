@@ -18,7 +18,7 @@ router.get("/pending", authMiddleware, roleMiddleware("inspector", "admin"), asy
        // 👈 convert mongoose doc to plain object
       return {
         ...r, 
-        documentUrl: `http://localhost:4000/uploads/${path.basename(r.filePath)}`,
+        documentUrl: `https://verifyme-uw2l.onrender.com/uploads/${path.basename(r.filePath)}`,
       };
     });
 
